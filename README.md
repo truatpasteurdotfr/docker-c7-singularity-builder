@@ -3,12 +3,12 @@
 - (toy) docker image produced by github actions
 [![Docker build](https://github.com/truatpasteurdotfr/docker-c7-singularity-builder/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/docker-c7-singularity-builder/actions/workflows/docker-publish.yml)
 ```
-$ docker pull ghcr.io/truatpasteurdotfr/docker-c7-singularity-builder:main
+docker pull ghcr.io/truatpasteurdotfr/docker-c7-singularity-builder:main
 ```
 - (toy) singularity container produced by github actions
 [![Singularity build](https://github.com/truatpasteurdotfr/docker-c7-singularity-builder/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/docker-c7-singularity-builder/actions/workflows/singularity-publish.yml)
 ```
-$ singularity run oras://ghcr.io/truatpasteurdotfr/docker-c7-singularity-builder:latest
+singularity run oras://ghcr.io/truatpasteurdotfr/docker-c7-singularity-builder:latest
 ```
 
 Tru <tru@pasteur.fr>
